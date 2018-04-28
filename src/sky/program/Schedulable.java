@@ -1,8 +1,6 @@
 package sky.program;
 
-public class Schedulable
+public interface Schedulable
 {
-    private Schedulable()
-    {
-    }
+    public boolean potentiallyGo();
 }
